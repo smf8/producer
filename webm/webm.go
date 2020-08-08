@@ -1,6 +1,7 @@
 package webm
 
 import (
+	"github.com/smf8/producer"
 	"log"
 	"math"
 	"math/rand"
@@ -8,9 +9,8 @@ import (
 	"time"
 
 	"github.com/ebml-go/webm"
-	"github.com/pion/producer"
-	"github.com/pion/webrtc/v2"
-	"github.com/pion/webrtc/v2/pkg/media"
+	"github.com/pion/webrtc/v3"
+	"github.com/pion/webrtc/v3/pkg/media"
 )
 
 type WebMProducer struct {
